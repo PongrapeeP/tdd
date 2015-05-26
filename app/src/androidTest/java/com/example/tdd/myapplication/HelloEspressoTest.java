@@ -28,8 +28,7 @@ public class HelloEspressoTest {
     @Rule
     public ActivityTestRule<MainActivity> activityTestRule = new ActivityTestRule<MainActivity>(MainActivity.class);
 
-    @Parameters
-    public static Iterable
+
     @Test public void convert_temperator_from_0_celsius_should_32_fahrenheit(){
         onView(withId(R.id.txtCelsius)).perform(typeText("0"));
 
