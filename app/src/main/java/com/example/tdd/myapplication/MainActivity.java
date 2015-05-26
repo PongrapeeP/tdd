@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
                         celsius = "0";
                         Celsius.setText(("0"));
                     }
-                    double fah = (double) ((9 / 5) * Double.valueOf(celsius) + 32);
+                    double fah = (double) ((9.0 / 5.0) * Double.valueOf(celsius) + 32);
                     Fahrenheit.setText(String.valueOf(fah));
                 }
 

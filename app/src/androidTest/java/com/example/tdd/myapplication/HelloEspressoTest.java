@@ -38,7 +38,8 @@ public  class HelloEspressoTest {
     @Parameters
     public  static Iterable<Object[]>data(){
         return Arrays.asList(new Object[][]{
-                {"0","32.0"}
+                {"0","32.0"},
+                {"1","33.8"}
         });
     }
 
